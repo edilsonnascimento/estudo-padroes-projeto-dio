@@ -66,5 +66,4 @@ class RoboContextoTest {
         // then
         assertEquals(expetecd, actual);
     }
-
 }
