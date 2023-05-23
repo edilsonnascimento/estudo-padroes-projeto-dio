@@ -1,7 +1,7 @@
-package org.example;
+package org.example.singleton;
 
 public class SingletonEager {
-    private final static SingletonEager instancia = new SingletonEager();
+    private static SingletonEager instancia = new SingletonEager();
 
     private SingletonEager() {
         super();
